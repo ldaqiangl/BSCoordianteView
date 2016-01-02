@@ -1,7 +1,7 @@
 # BSCoordianteView
 
 # 两行代码集成你的任意坐标视图</br>
-![](http://ldaqiangl.com/img/bscoordinate.gif "坐标视图")
+![](https://github.com/ldaqiangl/BSCoordianteView/blob/master/Untitled.gif "坐标视图")
 
 # 作用：
 ## 1.自定义坐标视图，彻底解耦</br>
