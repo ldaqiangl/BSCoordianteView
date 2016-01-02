@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		707A9D191C382AD200EBBF82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D181C382AD200EBBF82 /* main.m */; };
+		707A9D1C1C382AD200EBBF82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D1B1C382AD200EBBF82 /* AppDelegate.m */; };
+		707A9D1F1C382AD200EBBF82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D1E1C382AD200EBBF82 /* ViewController.m */; };
+		707A9D221C382AD200EBBF82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707A9D201C382AD200EBBF82 /* Main.storyboard */; };
+		707A9D241C382AD200EBBF82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 707A9D231C382AD200EBBF82 /* Assets.xcassets */; };
+		707A9D271C382AD200EBBF82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 707A9D251C382AD200EBBF82 /* LaunchScreen.storyboard */; };
+		707A9D321C382AD200EBBF82 /* BSCoordinateViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D311C382AD200EBBF82 /* BSCoordinateViewTests.m */; };
+		707A9D3D1C382AD200EBBF82 /* BSCoordinateViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D3C1C382AD200EBBF82 /* BSCoordinateViewUITests.m */; };
+		707A9D591C382B0000EBBF82 /* BSChartBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D4C1C382B0000EBBF82 /* BSChartBaseView.m */; };
+		707A9D5A1C382B0100EBBF82 /* BSChartBMPView.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D4E1C382B0000EBBF82 /* BSChartBMPView.m */; };
+		707A9D5B1C382B0100EBBF82 /* BSChartCoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D501C382B0000EBBF82 /* BSChartCoordinateView.m */; };
+		707A9D5C1C382B0100EBBF82 /* BSChartHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D531C382B0000EBBF82 /* BSChartHandle.m */; };
+		707A9D5D1C382B0100EBBF82 /* BSChartPointItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D551C382B0000EBBF82 /* BSChartPointItem.m */; };
+		707A9D5E1C382B0100EBBF82 /* KSChartParamTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D581C382B0000EBBF82 /* KSChartParamTool.m */; };
+		707A9D601C382B5E00EBBF82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D5F1C382B5E00EBBF82 /* CoreGraphics.framework */; };
+		707A9D641C382F9900EBBF82 /* UIColor+BSExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 707A9D631C382F9900EBBF82 /* UIColor+BSExt.m */; };
+		707A9D661C38326C00EBBF82 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D651C38326C00EBBF82 /* CoreFoundation.framework */; };
+		707A9D681C3832A800EBBF82 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D671C3832A800EBBF82 /* QuartzCore.framework */; };
+		707A9D6A1C3832B600EBBF82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D691C3832B600EBBF82 /* UIKit.framework */; };
+		707A9D6C1C3832C700EBBF82 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D6B1C3832C700EBBF82 /* CoreText.framework */; };
+		707A9D6E1C3832FB00EBBF82 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D6D1C3832FB00EBBF82 /* CoreImage.framework */; };
+		707A9D701C38330000EBBF82 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D6F1C38330000EBBF82 /* ImageIO.framework */; };
+		707A9D721C38330800EBBF82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707A9D711C38330800EBBF82 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		707A9D2E1C382AD200EBBF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707A9D0C1C382AD200EBBF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707A9D131C382AD200EBBF82;
+			remoteInfo = BSCoordinateView;
+		};
+		707A9D391C382AD200EBBF82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 707A9D0C1C382AD200EBBF82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707A9D131C382AD200EBBF82;
+			remoteInfo = BSCoordinateView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		707A9D141C382AD200EBBF82 /* BSCoordinateView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSCoordinateView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		707A9D181C382AD200EBBF82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		707A9D1A1C382AD200EBBF82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		707A9D1B1C382AD200EBBF82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		707A9D1D1C382AD200EBBF82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		707A9D1E1C382AD200EBBF82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		707A9D211C382AD200EBBF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		707A9D231C382AD200EBBF82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		707A9D261C382AD200EBBF82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		707A9D281C382AD200EBBF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707A9D2D1C382AD200EBBF82 /* BSCoordinateViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSCoordinateViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707A9D311C382AD200EBBF82 /* BSCoordinateViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCoordinateViewTests.m; sourceTree = "<group>"; };
+		707A9D331C382AD200EBBF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707A9D381C382AD200EBBF82 /* BSCoordinateViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSCoordinateViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		707A9D3C1C382AD200EBBF82 /* BSCoordinateViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSCoordinateViewUITests.m; sourceTree = "<group>"; };
+		707A9D3E1C382AD200EBBF82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707A9D4B1C382B0000EBBF82 /* BSChartBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSChartBaseView.h; sourceTree = "<group>"; };
+		707A9D4C1C382B0000EBBF82 /* BSChartBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSChartBaseView.m; sourceTree = "<group>"; };
+		707A9D4D1C382B0000EBBF82 /* BSChartBMPView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSChartBMPView.h; sourceTree = "<group>"; };
+		707A9D4E1C382B0000EBBF82 /* BSChartBMPView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSChartBMPView.m; sourceTree = "<group>"; };
+		707A9D4F1C382B0000EBBF82 /* BSChartCoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSChartCoordinateView.h; sourceTree = "<group>"; };
+		707A9D501C382B0000EBBF82 /* BSChartCoordinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSChartCoordinateView.m; sourceTree = "<group>"; };
+		707A9D511C382B0000EBBF82 /* BSChartCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSChartCustom.h; sourceTree = "<group>"; };
+		707A9D521C382B0000EBBF82 /* BSChartHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSChartHandle.h; sourceTree = "<group>"; };
+		707A9D531C382B0000EBBF82 /* BSChartHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSChartHandle.m; sourceTree = "<group>"; };
+		707A9D541C382B0000EBBF82 /* BSChartPointItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSChartPointItem.h; sourceTree = "<group>"; };
+		707A9D551C382B0000EBBF82 /* BSChartPointItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSChartPointItem.m; sourceTree = "<group>"; };
+		707A9D561C382B0000EBBF82 /* KSChartParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSChartParam.h; sourceTree = "<group>"; };
+		707A9D571C382B0000EBBF82 /* KSChartParamTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSChartParamTool.h; sourceTree = "<group>"; };
+		707A9D581C382B0000EBBF82 /* KSChartParamTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSChartParamTool.m; sourceTree = "<group>"; };
+		707A9D5F1C382B5E00EBBF82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		707A9D621C382F9900EBBF82 /* UIColor+BSExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BSExt.h"; sourceTree = "<group>"; };
+		707A9D631C382F9900EBBF82 /* UIColor+BSExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BSExt.m"; sourceTree = "<group>"; };
+		707A9D651C38326C00EBBF82 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		707A9D671C3832A800EBBF82 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		707A9D691C3832B600EBBF82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		707A9D6B1C3832C700EBBF82 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		707A9D6D1C3832FB00EBBF82 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		707A9D6F1C38330000EBBF82 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		707A9D711C38330800EBBF82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		707A9D111C382AD200EBBF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707A9D721C38330800EBBF82 /* Foundation.framework in Frameworks */,
+				707A9D701C38330000EBBF82 /* ImageIO.framework in Frameworks */,
+				707A9D6E1C3832FB00EBBF82 /* CoreImage.framework in Frameworks */,
+				707A9D6C1C3832C700EBBF82 /* CoreText.framework in Frameworks */,
+				707A9D6A1C3832B600EBBF82 /* UIKit.framework in Frameworks */,
+				707A9D681C3832A800EBBF82 /* QuartzCore.framework in Frameworks */,
+				707A9D661C38326C00EBBF82 /* CoreFoundation.framework in Frameworks */,
+				707A9D601C382B5E00EBBF82 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A9D2A1C382AD200EBBF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A9D351C382AD200EBBF82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		707A9D0B1C382AD200EBBF82 = {
+			isa = PBXGroup;
+			children = (
+				707A9D711C38330800EBBF82 /* Foundation.framework */,
+				707A9D6F1C38330000EBBF82 /* ImageIO.framework */,
+				707A9D6D1C3832FB00EBBF82 /* CoreImage.framework */,
+				707A9D6B1C3832C700EBBF82 /* CoreText.framework */,
+				707A9D691C3832B600EBBF82 /* UIKit.framework */,
+				707A9D671C3832A800EBBF82 /* QuartzCore.framework */,
+				707A9D651C38326C00EBBF82 /* CoreFoundation.framework */,
+				707A9D5F1C382B5E00EBBF82 /* CoreGraphics.framework */,
+				707A9D4A1C382B0000EBBF82 /* views */,
+				707A9D161C382AD200EBBF82 /* BSCoordinateView */,
+				707A9D301C382AD200EBBF82 /* BSCoordinateViewTests */,
+				707A9D3B1C382AD200EBBF82 /* BSCoordinateViewUITests */,
+				707A9D151C382AD200EBBF82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707A9D151C382AD200EBBF82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				707A9D141C382AD200EBBF82 /* BSCoordinateView.app */,
+				707A9D2D1C382AD200EBBF82 /* BSCoordinateViewTests.xctest */,
+				707A9D381C382AD200EBBF82 /* BSCoordinateViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		707A9D161C382AD200EBBF82 /* BSCoordinateView */ = {
+			isa = PBXGroup;
+			children = (
+				707A9D1A1C382AD200EBBF82 /* AppDelegate.h */,
+				707A9D1B1C382AD200EBBF82 /* AppDelegate.m */,
+				707A9D1D1C382AD200EBBF82 /* ViewController.h */,
+				707A9D1E1C382AD200EBBF82 /* ViewController.m */,
+				707A9D201C382AD200EBBF82 /* Main.storyboard */,
+				707A9D231C382AD200EBBF82 /* Assets.xcassets */,
+				707A9D251C382AD200EBBF82 /* LaunchScreen.storyboard */,
+				707A9D281C382AD200EBBF82 /* Info.plist */,
+				707A9D171C382AD200EBBF82 /* Supporting Files */,
+			);
+			path = BSCoordinateView;
+			sourceTree = "<group>";
+		};
+		707A9D171C382AD200EBBF82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				707A9D181C382AD200EBBF82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		707A9D301C382AD200EBBF82 /* BSCoordinateViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				707A9D311C382AD200EBBF82 /* BSCoordinateViewTests.m */,
+				707A9D331C382AD200EBBF82 /* Info.plist */,
+			);
+			path = BSCoordinateViewTests;
+			sourceTree = "<group>";
+		};
+		707A9D3B1C382AD200EBBF82 /* BSCoordinateViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				707A9D3C1C382AD200EBBF82 /* BSCoordinateViewUITests.m */,
+				707A9D3E1C382AD200EBBF82 /* Info.plist */,
+			);
+			path = BSCoordinateViewUITests;
+			sourceTree = "<group>";
+		};
+		707A9D4A1C382B0000EBBF82 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				707A9D4F1C382B0000EBBF82 /* BSChartCoordinateView.h */,
+				707A9D501C382B0000EBBF82 /* BSChartCoordinateView.m */,
+				707A9D4B1C382B0000EBBF82 /* BSChartBaseView.h */,
+				707A9D4C1C382B0000EBBF82 /* BSChartBaseView.m */,
+				707A9D4D1C382B0000EBBF82 /* BSChartBMPView.h */,
+				707A9D4E1C382B0000EBBF82 /* BSChartBMPView.m */,
+				707A9D521C382B0000EBBF82 /* BSChartHandle.h */,
+				707A9D531C382B0000EBBF82 /* BSChartHandle.m */,
+				707A9D541C382B0000EBBF82 /* BSChartPointItem.h */,
+				707A9D551C382B0000EBBF82 /* BSChartPointItem.m */,
+				707A9D511C382B0000EBBF82 /* BSChartCustom.h */,
+				707A9D561C382B0000EBBF82 /* KSChartParam.h */,
+				707A9D571C382B0000EBBF82 /* KSChartParamTool.h */,
+				707A9D581C382B0000EBBF82 /* KSChartParamTool.m */,
+				707A9D621C382F9900EBBF82 /* UIColor+BSExt.h */,
+				707A9D631C382F9900EBBF82 /* UIColor+BSExt.m */,
+			);
+			name = views;
+			path = BSCoordinateView/views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		707A9D131C382AD200EBBF82 /* BSCoordinateView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707A9D411C382AD200EBBF82 /* Build configuration list for PBXNativeTarget "BSCoordinateView" */;
+			buildPhases = (
+				707A9D101C382AD200EBBF82 /* Sources */,
+				707A9D111C382AD200EBBF82 /* Frameworks */,
+				707A9D121C382AD200EBBF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BSCoordinateView;
+			productName = BSCoordinateView;
+			productReference = 707A9D141C382AD200EBBF82 /* BSCoordinateView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		707A9D2C1C382AD200EBBF82 /* BSCoordinateViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707A9D441C382AD200EBBF82 /* Build configuration list for PBXNativeTarget "BSCoordinateViewTests" */;
+			buildPhases = (
+				707A9D291C382AD200EBBF82 /* Sources */,
+				707A9D2A1C382AD200EBBF82 /* Frameworks */,
+				707A9D2B1C382AD200EBBF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707A9D2F1C382AD200EBBF82 /* PBXTargetDependency */,
+			);
+			name = BSCoordinateViewTests;
+			productName = BSCoordinateViewTests;
+			productReference = 707A9D2D1C382AD200EBBF82 /* BSCoordinateViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		707A9D371C382AD200EBBF82 /* BSCoordinateViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 707A9D471C382AD200EBBF82 /* Build configuration list for PBXNativeTarget "BSCoordinateViewUITests" */;
+			buildPhases = (
+				707A9D341C382AD200EBBF82 /* Sources */,
+				707A9D351C382AD200EBBF82 /* Frameworks */,
+				707A9D361C382AD200EBBF82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				707A9D3A1C382AD200EBBF82 /* PBXTargetDependency */,
+			);
+			name = BSCoordinateViewUITests;
+			productName = BSCoordinateViewUITests;
+			productReference = 707A9D381C382AD200EBBF82 /* BSCoordinateViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		707A9D0C1C382AD200EBBF82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "董富强";
+				TargetAttributes = {
+					707A9D131C382AD200EBBF82 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					707A9D2C1C382AD200EBBF82 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 707A9D131C382AD200EBBF82;
+					};
+					707A9D371C382AD200EBBF82 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 707A9D131C382AD200EBBF82;
+					};
+				};
+			};
+			buildConfigurationList = 707A9D0F1C382AD200EBBF82 /* Build configuration list for PBXProject "BSCoordinateView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 707A9D0B1C382AD200EBBF82;
+			productRefGroup = 707A9D151C382AD200EBBF82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				707A9D131C382AD200EBBF82 /* BSCoordinateView */,
+				707A9D2C1C382AD200EBBF82 /* BSCoordinateViewTests */,
+				707A9D371C382AD200EBBF82 /* BSCoordinateViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		707A9D121C382AD200EBBF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707A9D271C382AD200EBBF82 /* LaunchScreen.storyboard in Resources */,
+				707A9D241C382AD200EBBF82 /* Assets.xcassets in Resources */,
+				707A9D221C382AD200EBBF82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A9D2B1C382AD200EBBF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A9D361C382AD200EBBF82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		707A9D101C382AD200EBBF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707A9D1F1C382AD200EBBF82 /* ViewController.m in Sources */,
+				707A9D591C382B0000EBBF82 /* BSChartBaseView.m in Sources */,
+				707A9D5C1C382B0100EBBF82 /* BSChartHandle.m in Sources */,
+				707A9D1C1C382AD200EBBF82 /* AppDelegate.m in Sources */,
+				707A9D5A1C382B0100EBBF82 /* BSChartBMPView.m in Sources */,
+				707A9D5E1C382B0100EBBF82 /* KSChartParamTool.m in Sources */,
+				707A9D5D1C382B0100EBBF82 /* BSChartPointItem.m in Sources */,
+				707A9D5B1C382B0100EBBF82 /* BSChartCoordinateView.m in Sources */,
+				707A9D641C382F9900EBBF82 /* UIColor+BSExt.m in Sources */,
+				707A9D191C382AD200EBBF82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A9D291C382AD200EBBF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707A9D321C382AD200EBBF82 /* BSCoordinateViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707A9D341C382AD200EBBF82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				707A9D3D1C382AD200EBBF82 /* BSCoordinateViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		707A9D2F1C382AD200EBBF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707A9D131C382AD200EBBF82 /* BSCoordinateView */;
+			targetProxy = 707A9D2E1C382AD200EBBF82 /* PBXContainerItemProxy */;
+		};
+		707A9D3A1C382AD200EBBF82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 707A9D131C382AD200EBBF82 /* BSCoordinateView */;
+			targetProxy = 707A9D391C382AD200EBBF82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		707A9D201C382AD200EBBF82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707A9D211C382AD200EBBF82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		707A9D251C382AD200EBBF82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				707A9D261C382AD200EBBF82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		707A9D3F1C382AD200EBBF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		707A9D401C382AD200EBBF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		707A9D421C382AD200EBBF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = BSCoordinateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrb.BSCoordinateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		707A9D431C382AD200EBBF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				INFOPLIST_FILE = BSCoordinateView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrb.BSCoordinateView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		707A9D451C382AD200EBBF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BSCoordinateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrb.BSCoordinateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSCoordinateView.app/BSCoordinateView";
+			};
+			name = Debug;
+		};
+		707A9D461C382AD200EBBF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BSCoordinateViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrb.BSCoordinateViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSCoordinateView.app/BSCoordinateView";
+			};
+			name = Release;
+		};
+		707A9D481C382AD200EBBF82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BSCoordinateViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrb.BSCoordinateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BSCoordinateView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		707A9D491C382AD200EBBF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BSCoordinateViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yrb.BSCoordinateViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BSCoordinateView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		707A9D0F1C382AD200EBBF82 /* Build configuration list for PBXProject "BSCoordinateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707A9D3F1C382AD200EBBF82 /* Debug */,
+				707A9D401C382AD200EBBF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		707A9D411C382AD200EBBF82 /* Build configuration list for PBXNativeTarget "BSCoordinateView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707A9D421C382AD200EBBF82 /* Debug */,
+				707A9D431C382AD200EBBF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707A9D441C382AD200EBBF82 /* Build configuration list for PBXNativeTarget "BSCoordinateViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707A9D451C382AD200EBBF82 /* Debug */,
+				707A9D461C382AD200EBBF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		707A9D471C382AD200EBBF82 /* Build configuration list for PBXNativeTarget "BSCoordinateViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				707A9D481C382AD200EBBF82 /* Debug */,
+				707A9D491C382AD200EBBF82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 707A9D0C1C382AD200EBBF82 /* Project object */;
+}
