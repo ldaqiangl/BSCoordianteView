@@ -4,4 +4,4 @@
 3.只需两行代码即可搞定</br>
 4.高扩展，弹性扩展</br>
 
-![daqiang](http://pic.yesky.com/imagelist/07/03/1769316_2073.jpg)
+![](http://ldaqiangl.com/img/bscoordinate.gif)
