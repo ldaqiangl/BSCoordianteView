@@ -1,6 +1,6 @@
 # BSCoordianteView
 
-两行代码集成你的任意坐标视图
+# 两行代码集成你的任意坐标视图</br>
 ![](http://ldaqiangl.com/img/bscoordinate.gif "坐标视图")
 
 # 作用：
